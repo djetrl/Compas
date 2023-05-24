@@ -1,8 +1,5 @@
 "use strict";
 
-
-import Glide from '@glidejs/glide'
-
 window.addEventListener('DOMContentLoaded', ()=>{
   const arrowPrev =  document.querySelector('.arrow-left'),
         arrowNext =  document.querySelector('.arrow-right'),
