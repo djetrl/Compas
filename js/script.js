@@ -1,3 +1,4 @@
+import Glide from '@glidejs/glide'
 "use strict";
 
 window.addEventListener('DOMContentLoaded', ()=>{
