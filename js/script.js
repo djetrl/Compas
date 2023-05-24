@@ -81,7 +81,7 @@ function showMass(items ,NumberItems, ActiveNameClass){
   showMass(nowTimeItemControler, 0 , 'activeNowTime' )
  nowTimeItemControler.forEach((e, i) => {
     e.addEventListener('mouseover',()=>{
-      nowTimeParent.style.backgroundImage=`url(./img/nowTime/IMAGE${i+1}.png)`;
+      nowTimeParent.style.backgroundImage=`url(img/nowTime/IMAGE${i+1}.png)`;
       hideMass(nowTimeItemControler , 'activeNowTime');
       showMass(nowTimeItemControler, i , 'activeNowTime' );
     })
